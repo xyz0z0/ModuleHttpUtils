@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="wanandroid 网站" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录" />
+
+    <Button
+        android:id="@+id/btnGetBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取 Banner" />
+
+    <Button
+        android:id="@+id/btnGetUnread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="未读消息数量（需要登录）" />
+
+</LinearLayout>

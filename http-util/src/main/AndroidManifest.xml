@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="xyz.xyz0z0.httputil">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

@@ -1,0 +1,3 @@
+rootProject.name = "ModuleHttpUtils"
+include ':app'
+include ':http-util'
